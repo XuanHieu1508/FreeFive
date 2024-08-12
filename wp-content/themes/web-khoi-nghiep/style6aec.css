@@ -1,0 +1,465 @@
+/*
+Theme Name: Web Khoi Nghiep
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.entry-content{
+    padding-top:0px;
+}
+.logo-footer {
+    text-align: center;
+}
+.logo-footer img{
+    margin-bottom: 5px !important;
+    width: 70%;
+    text-align: center;
+}
+.section-footer ul{
+    list-style: none;
+}
+.section-footer .wpcf7-submit{
+    width: 100%;
+}
+.header-main .flex-right i{
+    color: black;
+}
+.product-page-price span.amount{
+    font-size: 25px;
+}
+a.devvn_buy_now_style{
+        background: black;
+}
+
+div.header-bottom {
+    border-bottom: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+}
+.div-product-cat{
+    margin-top:5px;
+    width: 50% !important;
+    min-width: 327px !important;
+    margin-right: 2px !important;
+    float: left;
+}
+.div-product-cat .box-text h5{
+    display: inline;
+}
+.div-product-cat .box-text h5:hover{
+        border-bottom: 1px solid;
+}
+.div-product-cat .box-text{
+        padding: 8px;
+}
+.woocommerce-result-count{
+    display: none;
+}
+.div-product-cat img,.div-product-cat .count{
+    display: none;
+}
+.div-product-cat .box-category {
+    border: 1px solid #d2d7db;
+}
+
+.header-bottom-nav #main_ul-primary li{
+    margin:0px 20px;
+}
+#main_ul-primary ul.mega_dropdown li{
+    margin-left:0px !important;
+}
+.mega_main_menu.primary li .post_details > .post_icon > i, .mega_main_menu.primary li .mega_dropdown .item_link *, .mega_main_menu.primary li .mega_dropdown a, .mega_main_menu.primary li .mega_dropdown a *, .mega_main_menu.primary li li .post_details a{
+    border-top: none !important;
+    border-bottom: none !important
+}
+a.plain,.toggle i{
+    transition: unset !important;
+}
+h3.title-home{
+    font-size: 28px;
+    text-align: center;
+    font-weight: normal;
+}
+.div-text{
+    padding:20px;
+}
+.div-text .text-medium{
+    font-size: 20px;
+    line-height: 2.0
+}
+.div-text h2{
+    font-size: 44px;
+}
+.mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mega_main_menu.primary .mega_dropdown{
+
+   padding-top: 10px;
+}
+.mega_main_menu.primary .mega_dropdown * {
+    color: #333333;
+    line-height: 14px !important;
+    font-size: 15px;
+}
+.mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .item_link > .link_content > .link_text{
+     font-weight: bold;
+    color: black;
+    padding: 0px 8px;
+    text-transform: uppercase;
+}
+.mega_main_menu.primary.primary_style-buttons > .menu_holder > .menu_inner > .nav_logo > .mobile_toggle, .mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .item_link{
+    background: transparent;
+}
+ul.mega_main_menu_ul{
+     
+}
+.mega_main_menu.direction-horizontal.first-lvl-separator-smooth > .menu_holder > .menu_inner > ul > li:last-child > .item_link:before, .mega_main_menu.direction-horizontal.first-lvl-separator-smooth > .menu_holder > .menu_inner > ul > li > .item_link:before, .mega_main_menu.direction-horizontal.first-lvl-separator-smooth > .menu_holder > .menu_inner > .nav_logo:before, .mega_main_menu.direction-horizontal.first-lvl-separator-smooth > .menu_holder > .menu_inner > ul > li.nav_search_box:before{
+    display: none;
+}
+.mega_main_menu.primary > .menu_holder > .menu_inner > ul > li:hover > .item_link, .mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .item_link:hover, .mega_main_menu.primary > .menu_holder > .menu_inner > ul > li > .item_link:focus, .mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.keep_open > .item_link, .mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-ancestor > .item_link, .mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-page-ancestor > .item_link, .mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-post-ancestor > .item_link, .mega_main_menu.primary > .menu_holder > .menu_inner > ul > li.current-menu-item > .item_link{
+    background: transparent;
+}
+.header-bottom li a{
+      font-family: "Helvetica", Sans-serif !important;
+    padding: 5px 15px;
+    font-weight: 100 !important;
+    font-size: 22px;
+}
+.header-nav-main li a{
+    font-weight: 100 !important;
+}
+.header-nav-main li a,.header-nav-main li a span{
+        font-family: "Helvetica", Sans-serif !important;
+}
+.flex-right .nav-right li a i{
+
+}
+
+html, body {overflow-x: hidden;}
+.flex-right .nav-right li a{
+    margin-top: 13px;
+}
+a.accordion-title{
+           padding: 6px 16px;
+    border: 1px solid #d2d7db;
+    margin-bottom: 10px;
+}
+.product-template-default .yith-wcwl-add-to-wishlist {
+    display: none;
+}
+.accordion-inner{
+    padding:10px;
+}
+.accordion-title:hover{
+    color: white;
+    background: black;
+}
+.accordion .toggle {
+    width: 2.3em;
+    height: 1.5em;
+    margin-right: 5px;
+    top: -8px !important;
+    border-radius: 999px;
+    position: absolute;
+    right: 0 !important;
+    left: unset !important; 
+    opacity: 1 !important;
+}
+.accordion .active .toggle{
+        top: 8px !important;
+}
+ a.active i.icon-angle-down:before {
+    content: "\f068";
+    font-family: FontAwesome !important;
+    font-size: 16px;
+}
+.section-video .toggle i.icon-angle-down:before {
+    content: "\f067";
+    font-family: FontAwesome !important;
+    font-size: 16px;
+}
+ .toggle i.icon-angle-down:before {
+    content: "\f067";
+    font-family: FontAwesome !important;
+    font-size: 16px;
+}
+.section-link{
+    position: fixed;
+    z-index: 98;
+}
+.section-link li a{
+    color: white;
+    font-size: 20px;
+}
+.footer-1 .wpcf7-submit:before{
+    content:"\f105" !important;
+    font-family: fontawesome !important;
+}
+.footer-1 .wpcf7-submit{
+        color: white;
+    background: #d80039;
+    font-weight: normal;
+}
+.footer-1 .your-email{
+    width: 68%;
+    float: left;
+}
+
+#nav_menu-2 span.widget-title:before{
+background-repeat: no-repeat;
+    background-position: 10px 20px;
+    /* left: 32px; */
+    width: 24px;
+    display: block;
+    content: '';
+    background: url(images/question-4.png);
+    height: 24px;
+    position: absolute;
+    left: -18px;
+    top: 1px;
+}
+#nav_menu-3 span.widget-title:before{
+background-repeat: no-repeat;
+    background-position: 10px 20px;
+    /* left: 32px; */
+    width: 24px;
+    display: block;
+    content: '';
+    background: url(images/question-4.png);
+    height: 24px;
+    position: absolute;
+    left: -18px;
+    top: 1px;
+}
+#nav_menu-4 span.widget-title:before{
+background-repeat: no-repeat;
+    background-position: 10px 20px;
+    /* left: 32px; */
+    width: 24px;
+    display: block;
+    content: '';
+    background: url(images/list-1.png);
+    height: 24px;
+    position: absolute;
+    left: -18px;
+    top: 1px;
+}
+
+#text-2 span.widget-title:before{
+background-repeat: no-repeat;
+    background-position: 10px 20px;
+    /* left: 32px; */
+    width: 24px;
+    display: block;
+    content: '';
+    background: url(images/email.png);
+    height: 24px;
+    position: absolute;
+    left: -18px;
+    top: 1px;
+}
+.footer-1{
+        padding: 50px 0px;
+    border-top: none;
+}
+.footer-1 span.widget-title{
+    color: rgba(51,51,51,0.84);
+    font-family: "Verdana", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    font-family: "Verdana", Sans-serif;
+}
+.footer-1 li a,.footer-1 p{
+    font-size: 13px;
+}
+.is-divider {
+    display: none;
+}
+.absolute-footer{
+    display: none;
+}
+ul.menu>li+li, .widget>ul>li+li {
+    border-top:none;
+}
+.section-best-seller .box-text{
+    display: none;
+}
+.p-my-way{
+        color: #000000;
+    font-family: "Aladin", Sans-serif;
+    font-size: 24px;
+}
+.row-text-my-way p{
+    margin-bottom: 5px;
+}
+.section-title-large h3.section-title{
+    line-height: 66px;
+}
+.section-title-large .section-title-main{
+        font-size: 32px;
+    color: black;
+        font-family: "Helvetica", Sans-serif;
+    font-weight: 100;
+}
+.section-title-container{
+    margin-bottom: 0px;
+}
+.section-title-small h3{
+    font-size: 2.8rem;
+}
+.home .section-title-container{
+    max-width: 1900px;
+}
+.home .section-title b {
+    display: block;
+    -ms-flex: 1;
+    flex: 1;
+    height: 1px;
+    opacity: 1;
+    background-color: currentColor;
+}
+.div-no-padding{
+    padding-bottom: 0px !important;
+}
+.row-creative{
+    padding: 50px;
+    background: url(images/background.png) ;
+     background-repeat: no-repeat;
+      background-size: cover;
+}
+.row-creative img{
+    border: 10px solid white;
+}
+.row-creative .row{
+    margin:auto !important;
+}
+
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+    background-color: currentColor !important;
+    border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+color: #fff;
+    background-color: #446084;
+    border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+   background : #2478ba !important;
+    border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+color: #fff !important;
+    background-color: #cb2320  !important;
+    border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+color: #fff !important;
+    background-color: #dd4e31 !important;
+    border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+color: #fff !important;
+    background-color: #0072b7 !important;
+    border-color: #0072b7     !important;
+}
+
+.single-date{
+        border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+    font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+    border-top: none !important;
+    border-bottom: 1px dashed #ececec !important;
+    
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+    background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+    height: 12px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	    font-size: 18px;
+    float: left;
+    margin: -8px 20px 0 0;
+}
+
+@media(min-width: 1023px){
+    .p-my-way {
+    color: #000000;
+    font-family: "Aladin", Sans-serif;
+    font-size: 24px;
+    margin-left: 131px;
+}
+    .section-title-small .section-title-main{
+        color: black;
+    margin: 0px 200px;
+    }
+    .section-title-large .section-title-main{
+        font-size: 90px;
+    color: black;
+    margin: 0px 235px;
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 100;}
+}
+@media(max-width: 855px){
+    .div-product-cat .product-category{
+            width: 50%;
+    float: left;
+    }
+    .woocommerce-ordering{
+        width: 100%;
+    }
+    .div-product-cat {
+    margin-top: 5px;
+    width: 100% !important;
+    min-width: 327px !important;
+    margin-right: 2px !important;
+    float: left;
+}
+    .div-text h2 {
+    font-size: 24px;
+}
+    .row-creative {
+    padding: 10px 0px}
+    h3.title-home{
+        font-size: 17px;
+    }
+    .section-title-small h3 {
+    font-size: 1.8rem;
+}
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
